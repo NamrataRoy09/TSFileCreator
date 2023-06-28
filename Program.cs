@@ -12,5 +12,6 @@ using (FileStream fs = File.Create(fileName))
     fs.Write(title, 0, title.Length);
     byte[] author = new UTF8Encoding(true).GetBytes("Mahesh Chand");
     fs.Write(author, 0, author.Length);
+    Console.WriteLine("File created");
 }
 
