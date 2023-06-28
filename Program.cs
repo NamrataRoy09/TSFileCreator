@@ -11,7 +11,7 @@ using (FileStream fs = File.Create(fileName))
     // Add some text to file    
     Byte[] title = new UTF8Encoding(true).GetBytes("New Text File");
     fs.Write(title, 0, title.Length);
-    byte[] author = new UTF8Encoding(true).GetBytes("Yola!!" + cr.someValue);
+    byte[] author = new UTF8Encoding(true).GetBytes("Yola!!" + cr.someValue++);
     fs.Write(author, 0, author.Length);
     Console.WriteLine("File created");
 }
