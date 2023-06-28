@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TSFileCreator
 {
-    internal class creator
+    public class creator
     {
+     
     }
 }
