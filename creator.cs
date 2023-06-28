@@ -10,5 +10,6 @@ namespace TSFileCreator
     {
         internal int someValue = 55;
         //comment added
+        public string log = "Let's have fun!!";
     }
 }
