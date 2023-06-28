@@ -9,5 +9,6 @@ namespace TSFileCreator
     internal class creator
     {
         internal int someValue = 55;
+        //comment added
     }
 }
